@@ -12,13 +12,13 @@ variable "resource_group_name" {
 variable "location" {
   description = "Region Azure"
   type        = string
-  default     = "West Europe"
+  default     = "polandcentral"
 }
 
 variable "vm_size" {
-  description = "Rozmiar VM (Standard_B1s ~$8/mies.)"
+  description = "Rozmiar VM"
   type        = string
-  default     = "Standard_B1s"
+  default     = "Standard_D2s_v3"
 }
 
 variable "admin_username" {
